@@ -35,7 +35,7 @@ class IncidentsSensor(RestoreEntity):
     @property
     def name(self) -> str:
         """Return the name of the sensor."""
-        return "Incidents"
+        return "MeldingGegevens"
 
     @property
     def icon(self) -> str:
